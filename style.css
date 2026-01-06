@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
