@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audit Trail System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Audit Trail</h1>
+
+  <div class="actions">
+    <button onclick="addEvent('Login')">Login</button>
+    <button onclick="addEvent('Data Updated')">Update Data</button>
+    <button onclick="addEvent('Logout')">Logout</button>
+    <button onclick="exportLogs()">Export Logs</button>
+  </div>
+
+  <ul id="logs"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
